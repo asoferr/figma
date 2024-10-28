@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.search-bar-container {
+    display: flex; /* Adiciona flexbox para o contêiner */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    background: linear-gradient(to right, #C6CAD4, #386297);
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 300px; 
+    box-shadow: 1px 2px 5px rgb(59, 59, 59);
+    margin-left: 20px;
+}
+
+.search-bar-container input {
+    background-color: #00336600;
+    border: none; /* Remove a borda */
+    outline: none; /* Remove o contorno ao focar */
+    width: 280px; /* Largura do campo de entrada */
+}
+
+
+.search-bar-container button{
+    margin-top: -5px;
+    margin-left: 10px;
+    width: 20px;
+}
+.user-options {
+    display: flex; /* Alinha os elementos lado a lado */
+    align-items: center; /* Alinha verticalmente os itens ao centro */
+    gap: 20px; /* Espaçamento entre os elementos */
+}
+
+
+
+
+
+.carrinhoMenu {
+    display: flex; /* Alinha os botões do carrinho e menu lado a lado */
+    gap: 15px; /* Adiciona espaço entre os botões */
+    margin-left: 910px;
+    margin-top: auto;
+}
+
+.carrinhoMenu button {
+    background: none; /* Remove o fundo do botão */
+    border: none; /* Remove a borda do botão */
+    cursor: pointer; /* Muda o cursor para indicar clicável */
+}
+
+.carrinhoMenu img {
+    width: 20px; /* Ajusta o tamanho das imagens */
+    height: auto; /* Mantém a proporção das imagens */
+}
+
+
+
+.logo {
+    width: 100%;
+    height: 100%;
+}
+
+.user-options {
+    display: flex;
+    gap: 10px;
+}
+
+.user-options input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-btn, .cart-btn {
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    margin: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #003366;
+    color: white;
+    padding: 15px 0;
+    list-style: none;
+    margin-top: -25px;
+}
+
+nav ul li {
+    display: flex; /* Exibe a imagem e o texto lado a lado */
+    align-items: center; /* Alinha verticalmente o conteúdo */
+}
+/* Seleciona todas as imagens dentro dos itens de lista do menu */
+ li img {
+    width: 30px; 
+    margin-right: 10px; /* Adiciona espaço entre a imagem e o texto */
+}
+
+
+main {
+    padding: 20px;
+}
+
+.Categorias, .sugestoes, .depoimento {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.icons img{
+    align-items: center;
+    
+}
+
+.icons {
+    display: flex; /* Alinha os itens lado a lado */
+    justify-content: space-evenly; /* Espaça os ícones uniformemente */
+    align-items: center; /* Centraliza os ícones verticalmente */
+    /* Adiciona espaçamento entre os ícones */
+    padding: 20px 0; /* Adiciona um pouco de espaçamento acima e abaixo */
+}
+
+.categorias-icons {
+    display: flex;
+    flex-direction: column; /* Alinha imagem e texto verticalmente */
+    
+    align-items: center; /* Centraliza imagem e texto horizontalmente */
+    text-align: center; /* Garante que o texto seja centralizado */
+}
+
+.categorias-icons img {
+    width: 50px; /* Define a largura dos ícones */
+    gap: 100px;
+    height: auto; /* Mantém a proporção das imagens */
+    cursor: pointer; /* Muda o cursor para indicar que os ícones são clicáveis */
+}
+
+.categorias-icons p {
+    padding: 10px;
+}
+
+.product-carousel {
+    display: flex; /* Alinha os produtos em uma linha */
+    justify-content: space-around; /* Espaça os itens uniformemente */
+    margin-top: 10px; /* Espaço acima da lista de produtos */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se necessário */
+}
+
+.product-item {
+    text-align: center; /* Centraliza o texto dentro de cada item */
+    flex: 1; /* Faz com que cada item ocupe espaço igual */
+    max-width: 200px; /* Limita a largura máxima dos itens */
+    margin: 10px; /* Adiciona margem em torno de cada item */
+}
+
+.product-item img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do contêiner do item */
+    height: auto; /* Mantém a proporção da imagem */
+    align-items: center;
+}
+
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+}
+
+.footer-links, .payment-methods, .app-download {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
